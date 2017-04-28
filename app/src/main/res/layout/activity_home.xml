@@ -7,6 +7,8 @@
     tools:context="com.nitesh.spotifyspeech.HomeActivity">
 
     <Button
+        android:visibility="gone"
+        android:id="@+id/speakbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speak song"
@@ -14,5 +16,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="148dp" />
 
 </android.support.constraint.ConstraintLayout>
